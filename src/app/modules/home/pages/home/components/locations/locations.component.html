@@ -1,0 +1,19 @@
+<div class="locations">
+  <h2>Global Sales by Top Locations</h2>
+  <div>
+    <table>
+      <tr>
+        <th>#</th>
+        <th>Country</th>
+        <th>Sales</th>
+        <th>Average</th>
+      </tr>
+      <tr *ngFor="let location of locations">
+        <td><img [src]="location.img"></td>
+        <td>{{location.country}}</td>
+        <td>{{location.sales}}</td>
+        <td>{{location.average}}</td>
+      </tr>
+    </table>
+  </div>
+</div>

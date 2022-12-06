@@ -1,0 +1,27 @@
+<div class="total">
+  <div class="total-body">
+    <canvas baseChart
+            [data]="barChartData"
+            [options]="barChartOptions"
+            [plugins]="barChartPlugins"
+            [legend]="barChartLegend"
+            [type]="'bar'">
+    </canvas>
+  </div>
+  <div class="total-footer">
+    <div class="footer-title">
+      <p>Total completed project and earning</p>
+    </div>
+    <div class="footer-group">
+      <div>
+        <p>Completed <br> Projects</p>
+        <p class="value">175</p>
+      </div>
+      <div class="border-left">
+        <p>Total Earnings</p>
+        <p class="value">76.6M</p>
+      </div>
+    </div>
+  </div>
+</div>
+

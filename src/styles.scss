@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #F6F8FB;
+  overflow: hidden;
+}
+.badge{
+  padding: 3px !important;
+  border-radius: 5px;
+  font-size: 10px !important;
+  color: white;
+  &.blue{
+    background-color: #43d2e7;
+    color: white !important;
+  }
+  &.orange{
+    background-color: #cc6613;
+    color: white;
+    margin: 0;
+  }
+  &.red{
+    background-color: red;
+    color: white;
+  }
+}
+
+.all-menu {
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+    label:first-child {
+      font-weight: bold;
+      font-size: 14px;
+      color: white !important;
+      i {
+        margin-right: 10px;
+      }
+    }
+
+    .right-side {
+      display: flex;
+      align-items: center;
+
+      i {
+        margin-left: 10px;
+      }
+    }
+
+
+  }
+
+  .sub-menu {
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,13 @@
+<div class="block">
+  <div class="block-header">
+    <div class="header-group">
+      <h2 [style.color]="titleColor">{{value}}</h2>
+      <label >{{title}}</label>
+    </div>
+    <i [className]="headerIcon"></i>
+  </div>
+  <div class="block-footer" [style.background-color]="footerBg">
+    <label>% change</label>
+    <i [className]="footerIcon"></i>
+  </div>
+</div>

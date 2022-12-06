@@ -1,0 +1,30 @@
+.visitor{
+  box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.18);
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  height: fit-content;
+  padding: 30px 20px;
+  .visitor-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header-title{
+      h2{
+        margin: 0 0 15px 0;
+        font-size: 14px;
+      }
+      p{
+        margin: 0;
+        color: #c8c8ca;
+
+      }
+    }
+    .header-actions{
+      i{
+        margin-left: 25px;
+        color: #c8c8ca;
+      }
+    }
+  }
+}

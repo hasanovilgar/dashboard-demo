@@ -1,0 +1,32 @@
+<div class="statistics">
+  <app-statistics *ngFor="let statictic of statistics"
+                  [value]="statictic.value"
+                  [headerIcon]="statictic.headerIcon"
+                  [footerIcon]="statictic.footerIcon"
+                  [title]="statictic.title"
+                  [titleColor]="statictic.titleColor"
+                  [footerBg]="statictic.footerBg"></app-statistics>
+</div>
+<div class="bar-charts">
+  <div class="chart-area w-70">
+    <app-visitors></app-visitors>
+  </div>
+  <div class="chart-area w-30">
+    <app-total></app-total>
+  </div>
+</div>
+
+<div class="bottom-area">
+  <div class="col">
+    <app-locations></app-locations>
+  </div>
+  <div class="col">
+    <app-new-users></app-new-users>
+  </div>
+  <div class="col">
+    <app-subscribers></app-subscribers>
+  </div>
+</div>
+
+
+

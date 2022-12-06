@@ -1,0 +1,101 @@
+.side-menu{
+  background-color: #404F66;
+  color: white;
+  width: 220px;
+  height: 100vh;
+  .logo{
+    height: 55px;
+    background-color: #404F66;
+    color: white;
+    padding: 15px;
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
+  }
+}
+.all-menu{
+  padding: 15px;
+  label{
+    font-size: 14px;
+    color: #afadad;
+
+  }
+  .dashboard{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    label{
+      font-weight: bold;
+      font-size: 14px;
+      color: white;
+    }
+  }
+  .default{
+
+    label{
+      margin-left: 10px;
+      color: white;
+    }
+  }
+  .crm{
+    margin-top: 10px;
+
+    label{
+      margin-left: 10px;
+      color: white;
+    }
+  }
+  .analytics{
+    margin-top: 10px;
+    i{
+      color: #FC9464;
+    }
+    label{
+      margin-left: 10px;
+      color: #FC9464;
+    }
+  }
+  .page-layout{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    label{
+      color: white;
+    }
+  }
+  .navigation{
+    margin-bottom: 10px;
+    label{
+      color: white;
+    }
+  }
+  .widget{
+    margin-bottom: 30px;
+    label{
+      color: white;
+    }
+  }
+  .basic-components{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    label{
+      font-weight: bold;
+      font-size: 14px;
+      color: white;
+    }
+  }
+  .advance-components{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    label{
+      font-weight: bold;
+      font-size: 14px;
+      color: white;
+    }
+  }
+  .extra-components{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    label{
+      font-weight: bold;
+      font-size: 14px;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<div class="visitor">
+  <div class="visitor-header">
+    <div class="header-title">
+      <h2>Visitors</h2>
+      <p>For more details about usage, please refer <b>amCharts</b> licences.</p>
+    </div>
+    <div class="header-actions">
+      <i class="fa-solid fa-expand"></i>
+      <i class="fa-solid fa-minus"></i>
+      <i class="fa-solid fa-trash-can"></i>
+    </div>
+  </div>
+  <div class="visitor-body">
+    <canvas baseChart
+            [data]="barChartData"
+            [options]="barChartOptions"
+            [plugins]="barChartPlugins"
+            [legend]="barChartLegend"
+            [type]="'bar'">
+    </canvas>
+
+  </div>
+</div>

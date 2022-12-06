@@ -1,0 +1,39 @@
+.header {
+  background-color: white;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  height: 55px;
+  box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
+
+  .header-left {
+    i {
+      margin-left: 30px;
+    }
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+
+    i {
+      margin-right: 30px;
+    }
+
+    label {
+      margin-right: 20px;
+      margin-left: 10px;
+    }
+
+    img {
+      width: 30px;
+      height: 30px;
+      border-radius: 5px;
+    }
+    .user{
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
